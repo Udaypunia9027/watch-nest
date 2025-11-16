@@ -30,6 +30,7 @@
 
     .logo-content {
         display: flex;
+        cursor: pointer;
     }
 
     .nav img {
@@ -193,11 +194,40 @@
         transform: rotate(-20deg);
     }
 
+    .feature-1 p:hover {
+        background-color: white;
+        color: black;
+        padding: 20px 10px;
+        transition: 0.3s;
+    }
+
+    .feature-2 p:hover {
+        background-color: white;
+        color: black;
+        padding: 20px 10px;
+        transition: 0.3s;
+    }
+
+    .feature-3 p:hover {
+        background-color: white;
+        color: black;
+        padding: 20px 10px;
+        transition: 0.3s;
+    }
+
+    .feature-4 p:hover {
+        background-color: white;
+        color: black;
+        padding: 20px 10px;
+        transition: 0.3s;
+    }
+
     .feature-1 p {
         width: 400px;
         position: absolute;
         left: 1050px;
         top: 120px;
+        cursor: pointer;
     }
 
     .feature-2 p {
@@ -205,6 +235,7 @@
         position: absolute;
         left: 1100px;
         top: 300px;
+        cursor: pointer;
     }
 
     .feature-3 p {
@@ -212,6 +243,7 @@
         position: absolute;
         left: 1050px;
         top: 450px;
+        cursor: pointer;
     }
 
     .feature-4 p {
@@ -219,6 +251,7 @@
         position: absolute;
         left: 250px;
         top: 470px;
+        cursor: pointer;
     }
 
     .achievements {
@@ -249,6 +282,11 @@
         border-radius: 20px;
         box-shadow: 2px 2px 10px grey;
         cursor: pointer;
+    }
+    .card-collection:hover{
+        background-color: rgba(96, 4, 51, 0.486);
+        padding: 10px 10px;
+        transition: 0.4s;
     }
 
     .card-img1 {
@@ -365,4 +403,11 @@
         font-size: x-large;
         font-weight: 600;
         cursor: pointer;
+    }
+
+    .collection-end:hover {
+        background-color: gold;
+        color: rgb(0, 0, 0);
+        padding: 20px 10px;
+        transition-duration: 0.5s;
     }
